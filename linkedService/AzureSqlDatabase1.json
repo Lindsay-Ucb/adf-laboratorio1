@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabase1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-sisger-78340340.database.windows.net",
+			"database": "free-sql-db-8257446",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "Lindsay",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBBNEE0MEI5LTUyRUEtNDQ2OC04MDI2LTczQzA5N0ZBMDUxOF9mZGM4NDA0NC1iMjZkLTQ1NGQtOWE3YS01MDI0ODU2ZWZjZWQiDQp9"
+		}
+	}
+}
